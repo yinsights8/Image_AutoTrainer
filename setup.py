@@ -24,7 +24,7 @@ def get_requirements(file_path:str)->List[str]:
 
 setup(
 name="Image_AutoTrainer",
-version='1.0.0',
+version='1.2.0',
 packages=find_packages(),
 include_package_data=True,
 license='MIT',
