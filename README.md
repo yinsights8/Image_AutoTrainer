@@ -1,14 +1,14 @@
-# Image_AutoTrainer : An Object Classification Library
+## Image_AutoTrainer : An Object Classification Library
 
-Authors
+Authors:
 Yash Dhakade
 
 Email: yinsights8@gmail.com
 
 Github: https://github.com/yinsights8
 
-🚀About Me
-I'm a Data Science learner. This library i've developed for learning purposes only
+🚀 About Me
+I'm a Data Science learner. This library I've developed this for learning purposes only
 
 
 About Image_AutoTrainer 
