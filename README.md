@@ -1,4 +1,4 @@
-## Image_AutoTrainer : An Object Classification Library
+## Image_AutoTrainer: An Object Classification Library
 
 Authors:
 Yash Dhakade
@@ -12,13 +12,13 @@ I'm a Data Science learner. This library I've developed this for learning purpos
 
 
 About Image_AutoTrainer 
-Image_AutoTrainer is an object classification library which is build on top of the machine learning libraris such as tensorflow and keras. This library allows you to experiment faster with image classification problems on different art of state models in deep learning. you can classify any image with any model without writing n lines of code. 
+Image_AutoTrainer is an object classification library that is built on top of machine learning libraries such as TensorFlow and Keras. This library allows you to experiment faster with image classification problems on different art of state models in deep learning. you can classify any image with any model without writing n lines of code. 
 
 Some advantages Image_AutoTrainer :
 
-Simple -- it is simple in implementation, it save a lot of time of a developer, 
+Simple -- it is simple in implementation, it saves a lot of time for a developer, 
 
 Flexible -- Keras adopts the principle of progressive disclosure of complexity: simple workflows should be quick and easy that’s why 
 Image_AutoTrainer is Flexible.
 
-Powerful -- Keras provides industry-strength performance and scalability: so we can use Image_AutoTrainer in the production
+Powerful -- Keras offers robust performance and scalability, enabling the utilization of Image_AutoTrainer in a production environment.
