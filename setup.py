@@ -25,19 +25,17 @@ def get_requirements(file_path:str)->List[str]:
 setup(
 name="Image_AutoTrainer",
 version='1.0.0',
-author="Yash Dhakade",
-author_email = "yinsights8@gmail.com",
 packages=find_packages(),
 include_package_data=True,
 license='MIT',
   description = "It's an auto image classification library",
   long_description=long_description,
   long_description_content_type="text/markdown",
-  url="https://github.com/entbappy/ImageSeeker-Package",
+  url="https://github.com/yinsights8/Image_AutoTrainer",
   author = 'Yash Dhakade',
   author_email = 'yinsights8@gmail.com',
   keywords = ['autotrainer'],
-  install_requires=get_requirements("requirements.txt"),
+  install_requires=get_requirements("Image_AutoTrainer/requirements.txt"),
   classifiers=[
     'Development Status :: 3 - Alpha',
 
