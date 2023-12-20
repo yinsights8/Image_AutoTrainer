@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for, jsonify
 from flask_cors import CORS, cross_origin
-from utils.decod_image import decodeImage
+from decoder.utils import decodeImage
 from predict_engine import PredictClassifier
 from threading import Timer
 import webbrowser

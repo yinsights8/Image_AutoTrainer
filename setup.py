@@ -1,30 +1,11 @@
-from setuptools import find_packages,setup
-from typing import List
+from setuptools import find_packages, setup
 
-HYPEN_E_DOT = '-e .'
-
-
-with open("README.md", "r", encoding="utf-8") as fh:
-    long_description = fh.read()
-
-def get_requirements(file_path:str)->List[str]:
-    """
-    This function returns a list of requrirements
-    """
-    requrirements = []
-
-    with open(file_path, 'r') as file_obj:
-        requirements = file_obj.readlines()
-        requirements = [req.replace("\n", " ") for req in requrirements]
-
-        if HYPEN_E_DOT in requirements:
-            requrirements.remove(HYPEN_E_DOT)
-
-    return requrirements
+with open("README.md", "r", encoding="utf-8") as f:
+    long_description = f.read()
 
 setup(
 name="Image_AutoTrainer",
-version='1.2.0',
+version='1.7.0',
 packages=find_packages(),
 include_package_data=True,
 license='MIT',
@@ -35,7 +16,15 @@ license='MIT',
   author = 'Yash Dhakade',
   author_email = 'yinsights8@gmail.com',
   keywords = ['autotrainer'],
-  install_requires=get_requirements("Image_AutoTrainer/requirements.txt"),
+  install_requires=[
+        'tensorflow==2.15.0',
+        'scipy==1.11.4',
+        'numpy==1.26.2',
+        'pandas',
+        'Pillow==10.1.0',
+        'Flask==3.0.0',
+        'Flask-Cors==3.0.10'
+      ],
   classifiers=[
     'Development Status :: 3 - Alpha',
 
